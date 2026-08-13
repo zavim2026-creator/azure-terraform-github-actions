@@ -10,5 +10,7 @@ module "virtual_network" {
   source = "../../module/azure_virtual_network"
 vnets = var.vnets
 
+depends_on = [ module.Azure_resource_group ]
+
 
 }
