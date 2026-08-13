@@ -19,14 +19,4 @@ vnets = {
 
   }
 
- vnet2 = {
-
-    name                = "mahi-vnet2"
-    address_space       = ["10.0.0.0/16"]
-    resource_group_name = "mahi-rg"
-    location            = "south Africa north"
-
-
-  }
-
 }
